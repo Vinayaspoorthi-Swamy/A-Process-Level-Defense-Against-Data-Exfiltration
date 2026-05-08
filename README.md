@@ -7,7 +7,7 @@ Project Overview: This project implements a Zero-Trust Security Mediator designe
 
 Key Features
 Deterministic Defense: Uses Regex-based pattern matching (O(n) complexity) to ensure 100% detection of known exfiltration signatures, avoiding the probabilistic failures of "AI watching AI".  
-Zero-Latency Intervention: Achieves sub-10ms detection-to-kill latency using a non-blocking tail -F I/O stream.  Process-Level Isolation: The monitor runs as an independent PID, ensuring it remains functional even if the primary Python RAG agent is fully compromised. 
+Zero-Latency Intervention: Achieves sub-10ms detection-to-kill latency using a non-blocking tail -f I/O stream.  Process-Level Isolation: The monitor runs as an independent PID, ensuring it remains functional even if the primary Python RAG agent is fully compromised. 
 Forensic Accountability: Automatically generates immutable forensic_log.json records for SIEM integration.  
 
 System Architecture
